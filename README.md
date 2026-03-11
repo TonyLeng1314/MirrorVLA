@@ -1,5 +1,7 @@
 # Mirror-VLA
 
+**Repository:** [https://github.com/TonyLeng1314/MirrorVLA](https://github.com/TonyLeng1314/MirrorVLA)
+
 This repository is a secondary development based on [VLA-Adapter](https://github.com/OpenHelix-Team/VLA-Adapter), for extensions and experiments around [VLA-Adapter: An Effective Paradigm for Tiny-Scale Vision-Language-Action Model](https://arxiv.org/abs/2509.09372).
 
 ---
