@@ -94,6 +94,7 @@ There are four augmentation modes (*augmodes*):
 | **3** | Mirror-flip input actions only                |
 | **4** | Both 2 and 3 (flip images and mirror actions) |
 
+Modes **3** and **4** are extremely difficult in practice—success under these settings is rare and often close to impossible without explicit handling (e.g. augmode conditioning).
 
 ---
 
