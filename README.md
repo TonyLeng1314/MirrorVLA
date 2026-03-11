@@ -296,6 +296,26 @@ Mirror-VLA with augmode conditioning, evaluated using **ground-truth** augmode a
 | **Overall**                                                                              | **125/150 (83.3%)** | **124/150 (82.7%)** | **22/150 (14.7%)** | **25/150 (16.7%)**  |
 
 
+### Ours (with learned augmode predictor at test time)
+
+Mirror-VLA with augmode conditioning, where the **learned augmode predictor (discriminator)** is used at test time to infer the augmentation mode (15 trials per task).
+
+| Task                                                                                     | Normal              | Image Flip          | Action Flip      | Both Flip        |
+| ---------------------------------------------------------------------------------------- | ------------------- | ------------------- | ---------------- | ---------------- |
+| pick up the black bowl between the plate and the ramekin and place it on the plate       | 13/15 (86.7%)       | 13/15 (86.7%)       | 0/15 (0.0%)      | 0/15 (0.0%)      |
+| pick up the black bowl next to the ramekin and place it on the plate                     | 13/15 (86.7%)       | 12/15 (80.0%)       | 0/15 (0.0%)      | 0/15 (0.0%)      |
+| pick up the black bowl from table center and place it on the plate                       | 15/15 (100.0%)      | 15/15 (100.0%)      | 0/15 (0.0%)      | 0/15 (0.0%)      |
+| pick up the black bowl on the cookie box and place it on the plate                       | 15/15 (100.0%)      | 15/15 (100.0%)      | 0/15 (0.0%)      | 0/15 (0.0%)      |
+| pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate | 13/15 (86.7%)       | 13/15 (86.7%)       | 0/15 (0.0%)      | 0/15 (0.0%)      |
+| pick up the black bowl on the ramekin and place it on the plate                          | 0/15 (0.0%)         | 0/15 (0.0%)         | 0/15 (0.0%)      | 0/15 (0.0%)      |
+| pick up the black bowl next to the cookie box and place it on the plate                  | 14/15 (93.3%)       | 13/15 (86.7%)       | 0/15 (0.0%)      | 0/15 (0.0%)      |
+| pick up the black bowl on the stove and place it on the plate                            | 12/15 (80.0%)       | 14/15 (93.3%)       | 0/15 (0.0%)      | 0/15 (0.0%)      |
+| pick up the black bowl next to the plate and place it on the plate                       | 14/15 (93.3%)       | 14/15 (93.3%)       | 0/15 (0.0%)      | 0/15 (0.0%)      |
+| pick up the black bowl on the wooden cabinet and place it on the plate                   | 13/15 (86.7%)       | 12/15 (80.0%)       | 0/15 (0.0%)      | 0/15 (0.0%)      |
+| **Overall**                                                                              | **122/150 (81.3%)** | **121/150 (80.7%)** | **0/150 (0.0%)** | **0/150 (0.0%)** |
+
+
+
 ---
 
 ## 🎬 Demo
