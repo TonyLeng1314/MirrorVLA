@@ -300,6 +300,8 @@ Mirror-VLA with augmode conditioning, evaluated using **ground-truth** augmode a
 
 ## 🎬 Demo
 
+At the start of each evaluation run we perform a **unified y-axis translation** so the discriminator can determine whether the current setting is mirrored. The clips below show Normal and Image Flip conditions.
+
 **Normal** — pick up the black bowl between the plate and the ramekin and place it on the plate:
 
 ![Normal demo](figure/2026_03_11-10_41_55--qname=Normal--episode=11--success=True--task=pick_up_the_black_bowl_between_the_plate_and_the_r.gif)
