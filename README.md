@@ -322,13 +322,17 @@ Mirror-VLA with augmode conditioning, where the **learned augmode predictor (dis
 
 At the start of each evaluation run we perform a **unified y-axis translation** so the discriminator can determine whether the current setting is mirrored. The clips below show Normal and Image Flip conditions.
 
-**Normal** — pick up the black bowl between the plate and the ramekin and place it on the plate:
+<p align="center">
+  <b>Normal</b> — pick up the black bowl between the plate and the ramekin and place it on the plate
+  <br><br>
+  <img src="figure/2026_03_11-10_41_55--qname=Normal--episode=11--success=True--task=pick_up_the_black_bowl_between_the_plate_and_the_r.gif" width="480">
+</p>
 
-![Normal demo](figure/2026_03_11-10_41_55--qname=Normal--episode=11--success=True--task=pick_up_the_black_bowl_between_the_plate_and_the_r.gif)
-
-**Image Flip** — pick up the black bowl on the wooden cabinet and place it on the plate:
-
-![Image Flip demo](figure/2026_03_11-10_41_55--qname=Image%20Flip--episode=149--success=True--task=pick_up_the_black_bowl_on_the_wooden_cabinet_and_p.gif)
+<p align="center">
+  <b>Image Flip</b> — pick up the black bowl on the wooden cabinet and place it on the plate
+  <br><br>
+  <img src="figure/2026_03_11-10_41_55--qname=Image%20Flip--episode=149--success=True--task=pick_up_the_black_bowl_on_the_wooden_cabinet_and_p.gif" width="480">
+</p>
 
 ---
 
