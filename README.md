@@ -2,6 +2,8 @@
 
 **Repository:** [https://github.com/TonyLeng1314/MirrorVLA](https://github.com/TonyLeng1314/MirrorVLA)
 
+Mirror-VLA addresses the problem that **third-view VLAs fail in mirror (flipped) settings**. We propose **MirrorBench**, a benchmark based on [LIBERO](https://github.com/Lifelong-Robot-Learning/LIBERO), together with a **lightweight discriminator** and **Mirror-VLA**. Under this setup, success rates in normal conditions stay similar, while success under mirror conditions is **greatly improved**.
+
 This repository is a secondary development based on [VLA-Adapter](https://github.com/OpenHelix-Team/VLA-Adapter), for extensions and experiments around [VLA-Adapter: An Effective Paradigm for Tiny-Scale Vision-Language-Action Model](https://arxiv.org/abs/2509.09372).
 
 ---
@@ -299,11 +301,11 @@ Mirror-VLA with augmode conditioning, evaluated using **ground-truth** augmode a
 
 **Normal** — pick up the black bowl between the plate and the ramekin and place it on the plate:
 
-
+![Normal demo](figure/2026_03_11-10_41_55--qname=Normal--episode=11--success=True--task=pick_up_the_black_bowl_between_the_plate_and_the_r.gif)
 
 **Image Flip** — pick up the black bowl on the wooden cabinet and place it on the plate:
 
-
+![Image Flip demo](figure/2026_03_11-10_41_55--qname=Image%20Flip--episode=149--success=True--task=pick_up_the_black_bowl_on_the_wooden_cabinet_and_p.gif)
 
 ---
 
